@@ -1,10 +1,5 @@
 # python程序之速刷【智联E学】-大学生职业规划短视频观看任务
 
-## 效果展示
-
-![](http://lsky.zidoukn.cn/i/2024/10/23/6718d043dfe48.png)![](http://lsky.zidoukn.cn/i/2024/10/23/6718d043dfe48.png)
-![](http://lsky.zidoukn.cn/i/2024/10/23/6718cd662d663.png)
-
 ## 前言
 
 ![](http://lsky.zidoukn.cn/i/2024/10/23/6718c6456ba08.png)
@@ -44,3 +39,8 @@ pip install loguru -i https://pypi.tuna.tsinghua.edu.cn/simple
 #### windows一键运行
 
 直接启动**main.exe**程序即可
+
+## 效果展示
+
+![](http://lsky.zidoukn.cn/i/2024/10/23/6718d043dfe48.png)![](http://lsky.zidoukn.cn/i/2024/10/23/6718d043dfe48.png)
+![](http://lsky.zidoukn.cn/i/2024/10/23/6718cd662d663.png)
