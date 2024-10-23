@@ -15,6 +15,8 @@
 
 [Github-zidou-kiyn/ZhiLianEXue-CheatProgress](https://github.com/zidou-kiyn/ZhiLianEXue-CheatProgress)
 
+[Gitee-zidoukn/ZhiLianEXue-CheatProgress](https://gitee.com/zidoukn/ZhiLianEXue-CheatProgress)
+
 ## 使用教程
 
 ### 配置文件-cookies & params
