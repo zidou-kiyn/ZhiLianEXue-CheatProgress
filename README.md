@@ -16,7 +16,7 @@
 
 ### 配置文件-cookies & params
 
-1. 在浏览器端进入[智联E学](https://course.zhaopin.com/)网站，进入课程学习界面，**F12**打开浏览器开发者工具，切换到**网络**，**F5**刷新网页，在分类中选择**Fetch/XHR**![](http://lsky.zidoukn.cn/i/2024/10/23/6718ca393cea7.png)
+1. 在浏览器端进入[智联E学](https://course.zhaopin.com/)网站，进入课程学习界面，**F12**打开浏览器开发者工具，切换到**网络**，**F5**刷新网页，在分类中选择**Fetch/XHR![](http://lsky.zidoukn.cn/i/2024/10/23/6718dc24e495e.png)**
 2. 点击如上图所示的请求中 `https://course.zhaopin.com/api/studentclasstask/getcourseinfo?******`，在标头处将cookie的内容复制到**cookies.txt**中![](http://lsky.zidoukn.cn/i/2024/10/23/6718cb12e66d2.png)![](http://lsky.zidoukn.cn/i/2024/10/23/6718cb4c174ab.png)
 3. 将载荷中各个参数对应的值替换到**params.json**中，注意，这边不是直接全部复制过去，需要对位替换![](http://lsky.zidoukn.cn/i/2024/10/23/6718cb8476665.png)![](http://lsky.zidoukn.cn/i/2024/10/23/6718cbf26ded9.png)
 
