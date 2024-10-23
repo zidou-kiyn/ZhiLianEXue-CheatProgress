@@ -151,6 +151,8 @@ try:
                 if count <= 0:
                     reportTime = int(time.time())
                     progress = lession['newestProgress']
+                    if progress <= 1:
+                        progress = 1
                     reportType = 1
                     response = cheat_progress(cookies, headers, params,
                                    classId, chapterId, lessionId,
