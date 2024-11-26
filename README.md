@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](http://lsky.zidoukn.cn/i/2024/10/23/6718c6456ba08.png)
+![](https://lsky.tarozero.top/i/2024/10/23/6718c6456ba08.png)
 
 大学生久受职业规划课程之苦，在此分析网站后开发出了全自动并行刷课程的程序
 
@@ -16,9 +16,9 @@
 
 ### 配置文件-cookies & params
 
-1. 在浏览器端进入[智联E学](https://course.zhaopin.com/)网站，进入课程学习界面，**F12**打开浏览器开发者工具，切换到**网络**，**F5**刷新网页，在分类中选择**Fetch/XHR![](http://lsky.zidoukn.cn/i/2024/10/23/6718dc24e495e.png)**
-2. 点击如上图所示的请求中 `https://course.zhaopin.com/api/studentclasstask/getcourseinfo?******`，在标头处将cookie的内容复制到**cookies.txt**中![](http://lsky.zidoukn.cn/i/2024/10/23/6718cb12e66d2.png)![](http://lsky.zidoukn.cn/i/2024/10/25/671a73fc31dd2.png)
-3. 将载荷中各个参数对应的值替换到**params.json**中，注意，这边不是直接全部复制过去，需要对位替换![](http://lsky.zidoukn.cn/i/2024/10/23/6718cb8476665.png)![](http://lsky.zidoukn.cn/i/2024/10/23/6718cbf26ded9.png)
+1. 在浏览器端进入[智联E学](https://course.zhaopin.com/)网站，进入课程学习界面，**F12**打开浏览器开发者工具，切换到**网络**，**F5**刷新网页，在分类中选择**Fetch/XHR![](https://lsky.tarozero.top/i/2024/10/23/6718dc24e495e.png)**
+2. 点击如上图所示的请求中 `https://course.zhaopin.com/api/studentclasstask/getcourseinfo?******`，在标头处将cookie的内容复制到**cookies.txt**中![](https://lsky.tarozero.top/i/2024/10/23/6718cb12e66d2.png)![](https://lsky.tarozero.top/i/2024/10/25/671a73fc31dd2.png)
+3. 将载荷中各个参数对应的值替换到**params.json**中，注意，这边不是直接全部复制过去，需要对位替换![](https://lsky.tarozero.top/i/2024/10/23/6718cb8476665.png)![](https://lsky.tarozero.top/i/2024/10/23/6718cbf26ded9.png)
 
 ### 启动程序
 
@@ -42,5 +42,5 @@ pip install loguru -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## 效果展示
 
-![](http://lsky.zidoukn.cn/i/2024/10/23/6718d043dfe48.png)![](http://lsky.zidoukn.cn/i/2024/10/23/6718d043dfe48.png)
-![](http://lsky.zidoukn.cn/i/2024/10/23/6718cd662d663.png)
+![](https://lsky.tarozero.top/i/2024/10/23/6718d043dfe48.png)![](https://lsky.tarozero.top/i/2024/10/23/6718d043dfe48.png)
+![](https://lsky.tarozero.top/i/2024/10/23/6718cd662d663.png)
