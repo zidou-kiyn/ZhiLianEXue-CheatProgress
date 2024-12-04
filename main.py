@@ -1,9 +1,15 @@
 import requests
 import json
 import time
+import os
 from loguru import logger
 
-# 过滤课程数据，提取必要的信息
+# 使用绝对路径,避免vscode打开文件忘记打开对应文件夹导致找不到文件 加强代码的稳健性
+current_dir = os.path.dirname(os.path.abspath(__file__))
+_cookies = os.path.join(current_dir, 'cookies.txt')
+_params = os.path.join(current_dir, 'params.json')
+
+# 过滤课程数据,提取必要的信息
 def filter_class_data(data):
     filtered_data = {
         "classTaskId": data["data"]["classTaskId"],
@@ -44,7 +50,7 @@ def remove_empty_chapters(class_info):
 
 # 加载cookies文件并转换为字典
 def load_cookies():
-    with open("./cookies.txt","r",encoding="utf-8") as f:
+    with open(_cookies,"r",encoding="utf-8") as f:
         cookies_str = f.read()
     cookies_dict = {}
     for cookie in cookies_str.split('; '):
@@ -72,7 +78,7 @@ def load_headers(cookies):
 
 # 加载请求参数
 def load_params():
-    with open("./params.json","r",encoding="utf-8") as f:
+    with open(_params,"r",encoding="utf-8") as f:
         params = json.loads(f.read())
     return params
 
@@ -121,7 +127,7 @@ finished_id = []  # 已完成课程的ID列表
 count = 0  # 循环计数器
 
 # 配置日志输出到文件，并设置文件大小达到1MB后自动轮转
-logger.add("./run.log", rotation="1 MB")  # 文件达到1MB后自动轮转
+logger.add("run.log", rotation="1 MB")  # 文件达到1MB后自动轮转
 
 try:
     while True:
